@@ -20,7 +20,7 @@ def mallawaarachchi_filter(I,alpha=1,beta=1,M=3):
     Code converted from Arik Kershenbaum's IPRiT
     Converted Feb 6, 2015 by Jeremy Karnowski
     """
-    (p,q) = np.mgrid[1:M+1,1:M+1]
+    (q,p) = np.mgrid[1:M+1,1:M+1]
     p = p - float(M)/2
     q = q - float(M)/2
 
